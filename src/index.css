@@ -81,3 +81,6 @@ ul.header li a.active {
   background: url(seattle.jpg);
 
 }
+.smallCarousel {
+  width: 500px;
+}
