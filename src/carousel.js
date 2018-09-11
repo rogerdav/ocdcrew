@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 export default () => (
   <Carousel autoPlay>
     <div>
-      <img src={require('./pics/pic1.jpg')} alt="missing pic one file"/>
+      <img src={require('./pics/pic1.jpg')} alt="missing pic one file" width="480px"/>
       <p className="legend">Pic 1</p>
     </div>
     <div>
