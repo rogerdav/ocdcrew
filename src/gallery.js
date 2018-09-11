@@ -8,7 +8,10 @@ class Gallery extends Component {
     return (
       <div>
         <h2>Gallery</h2>
-        <Carousel />
+        <div className="smallCarousel">
+        <Carousel width="480px"/>
+
+        </div>
        
 
       </div>
