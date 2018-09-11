@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  /* background: url(seattle.jpg); */
+
+  padding: 20px;
+  margin: 0;
+}
+ol ul {
+  list-style: none!important;
+}
+h1, h2, p, ul, li, a, {
+  font-family: sans-serif;
+  color: #82ad40;
+}
+h1 {
+  font-size: 4em;
+  color: #82ad40;
+  -webkit-text-stroke: 2px black;
+
+  }
+h3 {
+  font-size: 2em;
+  color: #82ad40;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: black;
+  padding: 0;
+}
+ul.header li a {
+  font-size: 2em;
+  color: #81807d;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #82ad40;
+  padding: 20px;
+}
+.content h2 {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+/* .active {
+  background-color: greenyellow;
+} */
+ul.header li a.active {
+  background-color: #82ad40;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.estimateForm {
+  display: grid;
+  line-height: 2;
+  position: relative;
+}
+.estimateForm input {
+  margin-left: 30px;
+  position: absolute;
+}
+.review div {
+  padding-top: 20px;
+}
+
+.banner {
+
+  background: url(seattle.jpg);
+
+}
