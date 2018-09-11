@@ -4,61 +4,34 @@ import { Carousel } from "react-responsive-carousel";
 export default () => (
   <Carousel autoPlay>
     <div>
-      <img src="./pics/pic1.jpg" />
+      <img src={require('./pics/pic1.jpg')} alt="missing pic one file"/>
       <p className="legend">Pic 1</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
-      <p className="legend">Legend 2</p>
+      <img src={require('./pics/pic2.jpg')} alt="missing pic one file"  />
+      <p className="legend">pic 2</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
-      <p className="legend">Legend 3</p>
+      <img src={require('./pics/pic3.jpg')} alt="missing pic one file" />
+      <p className="legend">pic3 3</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-4.jpg" />
-      <p className="legend">Legend 4</p>
+      <img src={require('./pics/pic4.jpg')} alt="missing pic one file" />
+      <p className="legend">Pic 4</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-5.jpg" />
-      <p className="legend">Legend 5</p>
+      <img src={require('./pics/pic5.jpg')}alt="missing pic one file" />
+      <p className="legend">Pic 5</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-6.jpg" />
-      <p className="legend">Legend 6</p>
+      <img src={require('./pics/pic6.jpg')} alt="missing pic one file" />
+      <p className="legend">Pic 6</p>
     </div>
     <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
-      <p className="legend">Legend 7</p>
+      <img src={require('./pics/pic7.jpg')} alt="missing pic one file" />
+      <p className="legend">Pic 7</p>
     </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-8.jpg" />
-      <p className="legend">Legend 8</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-9.jpg" />
-      <p className="legend">Legend 9</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-10.jpg" />
-      <p className="legend">Legend 10</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-11.jpg" />
-      <p className="legend">Legend 11</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-12.jpg" />
-      <p className="legend">Legend 12</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-13.jpg" />
-      <p className="legend">Legend 13</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-14.jpg" />
-      <p className="legend">Legend 14</p>
-    </div>
+    
   </Carousel>
 );
 

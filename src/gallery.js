@@ -9,6 +9,8 @@ class Gallery extends Component {
       <div>
         <h2>Gallery</h2>
         <Carousel />
+       
+
       </div>
     );
   }
