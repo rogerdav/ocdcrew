@@ -1,0 +1,11 @@
+#estimateDetail {
+  float: right;
+  border: solid 2px red;
+  width: 640px;
+  height: 480px;
+  position: relative;
+}
+#esContainer #estimateForm{
+  position: absolute;
+
+}

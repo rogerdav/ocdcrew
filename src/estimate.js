@@ -41,10 +41,7 @@ class Estimate extends Component {
 
   }
   render() {
-    return (
-      <div>
-        <h2>Request for Estimate</h2>
-        
+    return (       
         <form className="estimateForm" onSubmit={this.handleSubmit}> 
           <label>
             Name:
@@ -113,7 +110,7 @@ class Estimate extends Component {
           </label>
         </form>
         
-      </div>
+      
     );
   }
 }
