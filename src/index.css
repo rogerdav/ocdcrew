@@ -68,10 +68,7 @@ ul.header li a.active {
   line-height: 2;
   position: relative;
 }
-.estimateForm input {
-  margin-left: 30px;
-  position: absolute;
-}
+
 .review div {
   padding-top: 20px;
 }

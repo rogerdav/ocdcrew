@@ -1,0 +1,13 @@
+#estimateDetail {
+  float: right;
+  border: solid 2px red;
+  width: 640px;
+  height: 480px;
+  position: relative;
+  background-color: #82ad40;
+}
+#esContainer {
+  position: absolute;
+  background-color: #82ad40;
+
+}
