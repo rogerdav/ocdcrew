@@ -10,7 +10,7 @@ class EstimateHome extends Component {
       <div id="esContainer">
         <h2>Rdequest an Estimate</h2>
         <span id="estimateForm" className="inline">
-          <Estimate />
+          {/* <Estimate /> */}
         </span>
         <span id="estimateDetail" className="inline">
         this is a test message

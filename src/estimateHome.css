@@ -4,8 +4,10 @@
   width: 640px;
   height: 480px;
   position: relative;
+  background-color: #82ad40;
 }
-#esContainer #estimateForm{
+#esContainer {
   position: absolute;
+  background-color: #82ad40;
 
 }

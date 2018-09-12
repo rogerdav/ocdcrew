@@ -38,7 +38,7 @@ class Main extends Component {
             <Route path="/gallery" component={Gallery}/>
             <Route path="/reviews" component={Review}/>
             <Route path="/services" component={Services}/>
-            <Route path="/estimate" component={EstimateHome}/>
+            <Route path="/estimateHome" component={EstimateHome}/>
 
           </div>
         </div>
