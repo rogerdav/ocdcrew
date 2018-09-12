@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './estimate.css';
  
 class Estimate extends Component {
   constructor(props) {
@@ -8,10 +9,11 @@ class Estimate extends Component {
       email: '',
       phone: '',
       zip: '',
-      service: 'biMonthly',
+      service: 'none',
       bed: '',
       bath: '',
       common: '',
+      date: new Date(),
 
     };
 
@@ -20,16 +22,21 @@ class Estimate extends Component {
   }
 
   handleSubmit(e) {
+    console.log('the time of your request is  :' + this.state.date)
     console.log('your name is' + this.state.name);
+    console.log('your email is' + this.state.email);
+    console.log('your phone is' + this.state.phone);
+    console.log('your zip is' + this.state.zip);
+    console.log('the service you requested is ' + this.state.service);
+    console.log('your beds are ' + this.state.bed);
+    console.log('your baths are' + this.state.bath);
+    console.log('your commons are' + this.state.common);
     e.preventDefault();
   }
   handleInputChange(e) {
-    console.log('target', e.target.value);
-    console.log('target name', e.target.name);
-    console.log('state service before setstate', this.state.service);
-    this.setState({[e.target.name]: e.target.value});
-    console.log('state service after setstate', this.state.service);
     
+    this.setState({[e.target.name]: e.target.value});
+   
     
 
   }
@@ -59,6 +66,7 @@ class Estimate extends Component {
           <label>
             Service Required 
             <select name="service" onChange={this.handleInputChange} service={this.state.service}>
+              <option service="none">-------------</option>
               <option service="biMonthly">Bi Monthly</option>
               <option service="monthly">Monthly</option>
               <option service="weekly">Weekly</option>
@@ -72,35 +80,37 @@ class Estimate extends Component {
           </label>
           <label>
             Bedrooms:
-            <select>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
+            <select name="bed" onChange={this.handleInputChange} bed={this.state.bed}>
+              <option bed="1">1</option>
+              <option bed="2">2</option>
+              <option bed="3">3</option>
+              <option bed="4">4</option>
+              <option bed="5">5</option>
+              <option bed="6">6</option>
             </select>
           </label>
           <label>
             BathRooms:
-            <select>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
+            <select name="bath" onChange={this.handleInputChange} bath={this.state.bath}>
+              <option bath="1">1</option>
+              <option bath="2">2</option>
+              <option bath="3">3</option>
+              <option bath="4">4</option>
+              <option bath="5">5</option>
             </select>
           </label>
           <label>
             Common Areas:
-            <select>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
+            <select name="common" onChange={this.handleInputChange} common={this.state.common}>
+              <option common="1">1</option>
+              <option common="2">2</option>
+              <option common="3">3</option>
+              <option common="4">4</option>
             </select>
           </label>
-          <input type="submit" value="Submit" />
+          <label>
+            <input type="submit" value="Submit" />
+          </label>
         </form>
         
       </div>
