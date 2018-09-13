@@ -1,20 +1,27 @@
 #estimateDetail {
-  float: right;
+  width: 500px;
   border: solid 2px red;
-  width: 640px;
-  height: 480px;
-  position: relative;
+  float: right;
+  
   background-color: #82ad40;
 }
 #estimateForm {
-  float: left;
-  position: relative;
+ float: left;
+  width: 500px;
   border: solid 2px red;
-  width: 640px;
-  height: 480px;
+  
+}
+#estimateFloatClear {
+  clear: both;
 }
 #esContainer {
-  position: absolute;
+  border: solid 2px red;
+  
   background-color: #82ad40;
 
+}
+.estimateFormClass {
+  display: grid;
+  line-height: 2;
+  
 }

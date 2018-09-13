@@ -64,11 +64,7 @@ ul.header li a.active {
   display: inline-block;
 }
 
-.estimateForm {
-  display: grid;
-  line-height: 2;
-  position: relative;
-}
+
 
 .review div {
   padding-top: 20px;

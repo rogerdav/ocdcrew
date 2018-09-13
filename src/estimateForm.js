@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import './estimate.css';
+import './estimateHome.css';
  
-class Estimate extends Component {
+class EstimateForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -42,7 +42,7 @@ class Estimate extends Component {
   }
   render() {
     return (       
-        <form className="estimateForm" onSubmit={this.handleSubmit}> 
+        <form className="estimateFormClass" onSubmit={this.handleSubmit}> 
           <label>
             Name:
             <input type="text" name="name" 
@@ -115,4 +115,4 @@ class Estimate extends Component {
   }
 }
  
-export default Estimate;
+export default EstimateForm;
