@@ -42,6 +42,7 @@ ul.header li a {
 .content {
   background-color: #82ad40;
   padding: 20px;
+  border: dashed 2px red;
 }
 .content h2 {
   font-size: 2em;

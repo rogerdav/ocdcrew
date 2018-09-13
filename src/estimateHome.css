@@ -6,6 +6,13 @@
   position: relative;
   background-color: #82ad40;
 }
+#estimateForm {
+  float: left;
+  position: relative;
+  border: solid 2px red;
+  width: 640px;
+  height: 480px;
+}
 #esContainer {
   position: absolute;
   background-color: #82ad40;
