@@ -8,7 +8,7 @@ class EstimateHome extends Component {
   render() {
     return (
       <div id="esContainer">
-        <h2>Rdequest an Estimate</h2>
+        <h2>Request an Estimate</h2>
         <div id="estimateForm" className="inline">
          <EstimateForm />
 
