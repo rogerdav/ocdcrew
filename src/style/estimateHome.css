@@ -1,9 +1,19 @@
+/* #82ad40  green*/
+/* #81807d grey */
+
+
 #estimateDetail {
   width: 500px;
-  border: solid 2px red;
+  border: solid 2px #81807d;
   float: right;
   margin-right: 20%;
-  background-color: #81807d;
+  background-color: lightgrey;
+}
+#estimateDetail span {
+  font-size: 3em;
+}
+#estimateDetail p {
+  font-size: 0.5em;
 }
 #estimateForm {
   margin-top: 10px;
@@ -30,7 +40,7 @@
 #esContainer {
   
   
-  background-color: #81807d;
+  background-color: lightgrey;
 
 }
 /* .estimateFormClass {

@@ -1,5 +1,5 @@
 body {
-  background-color: #82ad40
+  background-color: lightgrey;
   ;
   /* background: url(seattle.jpg); */
 
@@ -23,7 +23,7 @@ h3 {
   font-size: 2em;
   color: black;
 }
-p  a {
+p li{
   font-size: 1.5em;
 }
 ul.header li {
@@ -34,6 +34,7 @@ ul.header li {
 ul.header {
   background-color: #81807d;
   padding: 0;
+  margin-top: 2%;
 }
 ul.header li a {
   font-size: 2em;
@@ -44,9 +45,9 @@ ul.header li a {
   display: inline-block;
 }
 .content {
-  background-color: #81807d;
+  background-color: #lightgrey;
   padding: 20px;
-  border: dashed 2px red;
+  /* border: dashed 2px red; */
 }
 .content h2 {
   font-size: 4em;
@@ -56,9 +57,7 @@ ul.header li a {
 .content li {
   margin-bottom: 10px;
 }
-/* .active {
-  background-color: greenyellow;
-} */
+
 ul.header li a.active {
   background-color: #82ad40;
   color: black;
@@ -68,26 +67,8 @@ ul.header li a.active {
   display: inline-block;
 }
 
-
-
-.review div {
-  padding-top: 20px;
+.banner {
+  background-color: #82ad40;
+  padding: 2%;
 }
 
-.bannerPic {
-  height: 200px;
-  width: 100%;
-  background: url(seattle.jpg);
-  background-repeat: no-repeat;
-  float: right;
-  
-
-}
-.smallCarousel {
-  width: 35%;
-  margin-left: 30%;
-}
-.galleryHeading {
-  margin-left: 40%;
-  margin-bottom: 2%;
-}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Carousel from "./carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import './style/gallery.css';
 
  
 class Gallery extends Component {

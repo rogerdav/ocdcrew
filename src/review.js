@@ -1,5 +1,5 @@
 import React, { Component } from "react";
- 
+import './style/review.css';
 class Review extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class Review extends Component {
         
         <div>
         <p>From the time I called Mandy to the actual service being done she exceeded expectations! Being responsive, useful suggestions and answered all of my questions. She is super detail oriented, hard working and did a great job, the name OCD cleaning is fitting and what else would you want with a cleaner?! Mandy has enhanced the reputation of my Corporate Housing company with her standards and I am forever grateful for her job well done, every time!</p>
-        <h4>Jenell</h4>
+        <span className="reviewer">Jenell</span>
         </div>
         
       </div>

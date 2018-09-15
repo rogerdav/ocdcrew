@@ -1,0 +1,13 @@
+.review div {
+  padding: 20px;
+  border: solid 2px #82ad40;
+}
+.review p {
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+.reviewer {
+  font-size: 2em;
+  padding: 15px;
+}
