@@ -6,22 +6,55 @@
   background-color: #82ad40;
 }
 #estimateForm {
- float: left;
+  margin-top: 10px;
+  float: left;
   width: 500px;
-  border: solid 2px red;
+  /* border: solid 2px red; */
+  clear: both;
+  font-size: 24px;
   
 }
+.fullWidth input {
+  width: 60%;
+  float: right;
+
+}
+#estimateForm select {
+  font-size: 20px;
+}
+
+
 #estimateFloatClear {
   clear: both;
 }
 #esContainer {
-  border: solid 2px red;
+  
   
   background-color: #82ad40;
 
 }
-.estimateFormClass {
-  display: grid;
+/* .estimateFormClass {
+  display: block;
   line-height: 2;
   
+} */
+.estimateFormClass  {
+  display: inline-grid;
+  width: 90%;
+}
+.estimateFormClass input {
+  font-size: 15px;
+  border-radius: 2px;
+}
+.estimateFormClass label {
+  margin-top: 5px;
+}
+#submitButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  float: right;
+}
+.alignRight {
+  float: right;
 }

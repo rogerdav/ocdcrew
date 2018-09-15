@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import EstimateForm from "./estimateForm";
-import estimateDetail from './estimateDetail';
+import EstimateDetail from './estimateDetail';
 import './estimateHome.css';
-import EstimateDetail from "./estimateDetail";
+
 
 
  
@@ -42,6 +42,7 @@ class EstimateHome extends Component {
     
     this.setState({[e.target.name]: e.target.value});
    console.log('state changed');
+   console.log('new state', e.target.service);
     
 
   }
@@ -49,12 +50,12 @@ class EstimateHome extends Component {
     return (
       <div id="esContainer">
         <h2>Request an Estimate</h2>
-        <div id="estimateForm" className="inline">
+        <div id="estimateForm" >
          <EstimateForm onFormChange={this.handleInputChange} onFormSubmit={this.handleSubmit}/>
 
         </div>
         <div id="estimateDetail" className="inline">
-        <EstimateDetail />
+        <EstimateDetail service={this.state.service}/>
         </div>
         <div id="estimateFloatClear"></div>
       </div>
