@@ -21,6 +21,7 @@ class Main extends Component {
           <div className="banner">
             <h1>OCD Crew</h1>
             <h3>Organizing, Cleaning, Detailing</h3>
+            
 
           </div>
           <ul className="header">

@@ -7,9 +7,9 @@ class Gallery extends Component {
   render() {
     return (
       <div>
-        <h2>Gallery</h2>
+        <h2 className="galleryHeading">Gallery</h2>
         <div className="smallCarousel">
-        <Carousel width="480px"/>
+        <Carousel id="picsView"/>
 
         </div>
        
