@@ -5,9 +5,9 @@ class Contact extends Component {
     return (
       <div>
         <h2>Contact</h2>
-        <p>Please feel free to contact me via emil or phone</p>
+        <p>Please feel free to contact me via email or phone</p>
         <p>Cell: (206) 353 9012</p>
-        <a href="mailto:davenport.mandy@gmail.com">Email davenport.mandy@gmail.com</a>
+        <a href="mailto:davenport.mandy@gmail.com">Email:  davenport.mandy@gmail.com</a>
       </div>
     );
   }

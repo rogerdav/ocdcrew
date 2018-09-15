@@ -1,5 +1,6 @@
 body {
-  background-color: black;
+  background-color: lightgrey;
+  ;
   /* background: url(seattle.jpg); */
 
   padding: 20px;
@@ -14,13 +15,16 @@ h1, h2, p, ul, li, a, {
 }
 h1 {
   font-size: 4em;
-  color: #82ad40;
-  -webkit-text-stroke: 2px black;
+  color: black;
+  
 
   }
 h3 {
   font-size: 2em;
-  color: #82ad40;
+  color: black;
+}
+p li{
+  font-size: 1.5em;
 }
 ul.header li {
   display: inline;
@@ -28,33 +32,32 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: black;
+  background-color: #81807d;
   padding: 0;
+  margin-top: 2%;
 }
 ul.header li a {
   font-size: 2em;
-  color: #81807d;
+  color: black;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
   display: inline-block;
 }
 .content {
-  background-color: #82ad40;
+  background-color: #lightgrey;
   padding: 20px;
-  border: dashed 2px red;
+  /* border: dashed 2px red; */
 }
 .content h2 {
-  font-size: 2em;
+  font-size: 4em;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
 }
 .content li {
   margin-bottom: 10px;
 }
-/* .active {
-  background-color: greenyellow;
-} */
+
 ul.header li a.active {
   background-color: #82ad40;
   color: black;
@@ -64,17 +67,8 @@ ul.header li a.active {
   display: inline-block;
 }
 
-
-
-.review div {
-  padding-top: 20px;
-}
-
 .banner {
-
-  background: url(seattle.jpg);
-
+  background-color: #82ad40;
+  padding: 2%;
 }
-.smallCarousel {
-  width: 500px;
-}
+

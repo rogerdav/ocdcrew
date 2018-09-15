@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import EstimateForm from "./estimateForm";
 import EstimateDetail from './estimateDetail';
-import './estimateHome.css';
+import './style/estimateHome.css';
 
 
 
