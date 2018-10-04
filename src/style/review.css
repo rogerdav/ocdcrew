@@ -1,13 +1,18 @@
 .review div {
-  padding: 20px;
+  padding: 45px;
   border: solid 2px #82ad40;
 }
 .review p {
-  padding: 15px;
+  margin-top: 30px;
+  padding: 25px;
   font-size: 1.5em;
+  border: solid #82ad40 1px;
+  font-style: italic;
+
 }
 
 .reviewer {
-  font-size: 2em;
-  padding: 15px;
+  font-size: 1.2em;
+  color: #82ad40;
+  float: right;
 }

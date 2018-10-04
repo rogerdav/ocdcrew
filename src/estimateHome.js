@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import EstimateForm from "./estimateForm";
 import EstimateDetail from './estimateDetail';
 import './style/estimateHome.css';
+import sendEmail from './sendEmail';
 
 
 
@@ -28,17 +29,8 @@ class EstimateHome extends Component {
   }
 
   handleSubmit(e) {
-    // console.log('the time of your request is  :' + this.state.date)
-    // console.log('your name is' + this.state.name);
-    // console.log('your email is' + this.state.email);
-    // console.log('your phone is' + this.state.phone);
-    // console.log('your zip is' + this.state.zip);
-    // console.log('the service you requested is ' + this.state.service);
-    // console.log('your beds are ' + this.state.bed);
-    // console.log('your baths are' + this.state.bath);
-    // console.log('your commons are' + this.state.common);
     e.preventDefault();
-    console.log('name', this.state);
+    
     this.setState({
       name: '',
       email: '',
@@ -51,7 +43,9 @@ class EstimateHome extends Component {
       common: '',
       date: '',
     });
-   console.log('after setstate in handle sumbit set to blank');
+    sendEmail(this.state);
+    
+   
   }
   handleInputChange(e) {
     
@@ -94,15 +88,3 @@ class EstimateHome extends Component {
  
 export default EstimateHome;
 
-// render() {
-//   const isLoggedIn = this.state.isLoggedIn;
-//   return (
-//     <div>
-//       {isLoggedIn ? (
-//         <LogoutButton onClick={this.handleLogoutClick} />
-//       ) : (
-//         <LoginButton onClick={this.handleLoginClick} />
-//       )}
-//     </div>
-//   );
-// }
