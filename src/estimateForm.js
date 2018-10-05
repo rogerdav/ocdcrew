@@ -53,7 +53,7 @@ class EstimateForm extends Component {
           </label>
           <label>
             Bedrooms:
-            <select name="value" className="alignRight" onChange={this.handleChange} >
+            <select name="bed" className="alignRight" onChange={this.handleChange} >
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>

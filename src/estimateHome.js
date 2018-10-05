@@ -43,6 +43,7 @@ class EstimateHome extends Component {
       common: '',
       date: '',
     });
+    console.log('value of beds before email', this.state.bed)
     sendEmail(this.state);
     console.log('test env variable', process.env.REACT_APP_AWS_KEY_ID)
    
