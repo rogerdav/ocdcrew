@@ -44,7 +44,7 @@ class EstimateHome extends Component {
       date: '',
     });
     sendEmail(this.state);
-    
+    console.log('test env variable', process.env.REACT_APP_AWS_KEY_ID)
    
   }
   handleInputChange(e) {
