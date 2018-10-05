@@ -14,7 +14,8 @@ module.exports = function(formInfo) {
 // This address must be verified with Amazon SES.
   const sender = 'Sender Name <roger.neil.davenport@gmail.com>';
   const recipient = 'roger@roger-davenport.com';
-  const subject = 'Request for estimate from Website';
+  let dayForSubject = formInfo.date.getDay();
+  const subject = `Request for estimate from Website ${dayForSubject}`;
 
   // The email body for recipients with non-HTML email clients.
   const body_text = 'Request for quote this is the body of the message';

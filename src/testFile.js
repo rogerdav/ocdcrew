@@ -12,6 +12,6 @@ module.exports = function() {
     html: '<strong>this is where HTML goes</strong>',
   };
   sgMail.send(msg);
-  console.log('message sent');
+  console.log('message sent from sendgridmail');
   
 }

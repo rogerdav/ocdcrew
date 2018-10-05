@@ -14,6 +14,8 @@ class Review extends Component {
           Amanda sees solutions/concepts that I can’t see. She can reorganize a space, a room, and/or a book shelf and it will look like a work of art. Her talents are as boundless as her energy. I honestly don’t know what I would do without her keen eye and attention to detail.<span className="reviewer">     Fabienne Z.</span></p>
           
           <p>I don't quite know what I would do without Mandy and the OCD Crew.  Not only is my home spotless but she goes above and beyond.  One day, as guests were arriving, she called to let me know I had an issue with our bathroom shower.  I immediately tried calling plumbers to no avail and the plumbing supply place for new parts - Mandy, calm as a cucumber said I think I can take care of this.  She picked up supplies and had it fixed in a couple of hours.<span className="reviewer">     Kelly H.</span></p>
+
+          <p>Mandy has helped me manage our airbnb business the last three summers. We travel internationally and I never have to worry when we are out of the country as she is so reliable and experienced at what she does. She makes our home feel extra special with her thorough cleaning and attention to detail that is way beyond what I can do in my own home. She makes things "just right" smelling amazing, beautiful presention of everything she touches and goes out of her way with anything out of the ordinary. I am very grateful for everything Mandy does to help us with our business!<span className="reviewer">Amy H.</span></p>
           
         </div>
         
