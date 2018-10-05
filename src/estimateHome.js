@@ -43,6 +43,7 @@ class EstimateHome extends Component {
       common: '',
       date: '',
     });
+    console.log('value of beds before email', this.state.bed)
     sendEmail(this.state);
     
    
