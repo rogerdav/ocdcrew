@@ -1,0 +1,52 @@
+.contactFormClass  {
+  display: inline-grid;
+  width: 90%;
+}
+.contactFormClass input {
+  font-size: 15px;
+  border-radius: 2px;
+}
+.contactFormClass label {
+  margin-top: 5px;
+}
+#submitButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  float: right;
+}
+.alignRight {
+  float: right;
+}
+#contactDetails {
+  float: right;
+  margin-right: 30%;
+}
+#contactForm {
+  margin-top: 10px;
+  /* float: left; */
+  width: 500px;
+  /* border: solid 2px red; */
+  clear: both;
+  font-size: 24px;
+  
+}
+#contactInput {
+  float: left;
+}
+.fullWidth input {
+  width: 60%;
+  float: right;
+
+}
+#contactForm select {
+  font-size: 20px;
+}
+.fullWidth textarea {
+  height: 200px;
+  width: 60%;
+  float: right;
+  border-radius: 2px;
+  border-width: 2px;
+  border-style: inset;
+}
