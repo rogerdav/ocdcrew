@@ -1,3 +1,21 @@
 .aboutInfo {
   font-size: 2em;
 }
+.aboutInfo p {
+    font-size: 0.75em;
+    padding: 1% 0.2%;
+
+  
+}
+
+.aboutInfo img {
+  float: right;
+  height: 250px;
+}
+
+.aboutInfo span {
+ font-style: italic;
+}
+.heading {
+  font-weight: bold;
+}
