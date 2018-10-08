@@ -25,11 +25,11 @@ class Main extends Component {
 
           </div>
           <ul className="header">
-            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/about">Who We Are</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
             <li><NavLink to="/gallery">Gallery</NavLink></li>
-            <li><NavLink to="/reviews">Reviews</NavLink></li>
-            <li><NavLink to="/services">Services</NavLink></li>
+            <li><NavLink to="/reviews">What Other Say</NavLink></li>
+            <li><NavLink to="/services">What We Do</NavLink></li>
             <li><NavLink to="/estimateHome">Request an Estimate</NavLink></li>
           </ul>
           <div className="content">
