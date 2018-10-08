@@ -3,6 +3,14 @@
   margin-left: 32%;
 }
 .galleryHeading {
-  margin-left: 43%;
+  margin-left: 0%;
   margin-bottom: 2%;
+  display: inline-block;
+  width: 50%;
 }
+
+/* #gallery {
+  position: fixed;
+  text-align: center;
+  height: 100%;
+} */

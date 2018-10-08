@@ -26,9 +26,9 @@ class Main extends Component {
           </div>
           <ul className="header">
             <li><NavLink to="/about">Who We Are</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/contact">How To Reach Us</NavLink></li>
             <li><NavLink to="/gallery">Gallery</NavLink></li>
-            <li><NavLink to="/reviews">What Other Say</NavLink></li>
+            <li><NavLink to="/reviews">What Others Say</NavLink></li>
             <li><NavLink to="/services">What We Do</NavLink></li>
             <li><NavLink to="/estimateHome">Request an Estimate</NavLink></li>
           </ul>

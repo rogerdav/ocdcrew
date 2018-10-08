@@ -7,7 +7,7 @@ import './style/gallery.css';
 class Gallery extends Component {
   render() {
     return (
-      <div>
+      <div id="gallery">
         <h2 className="galleryHeading">Gallery</h2>
         <div className="smallCarousel">
         <Carousel id="picsView"/>
