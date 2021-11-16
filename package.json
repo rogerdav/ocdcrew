@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aws-sdk": "^2.328.0",
+    "aws-sdk": "^2.814.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-responsive-carousel": "^3.1.41",
